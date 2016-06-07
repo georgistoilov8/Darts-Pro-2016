@@ -1,0 +1,92 @@
+#p1 {
+    border: solid #00FF00;
+    border-radius: 10px;
+    background-color: #48C6D4;
+    margin: 6px;
+}
+
+#p2 {
+   border: solid #AD4257;
+   border-radius: 10px;
+   background-color:#F66C7B;
+   margin: 6px;
+}
+
+.good_looking_div {
+	position: relative;
+	color:white;
+	display:none;
+	height: 50px;
+	border: 8px rgb(250, 178, 0) double;
+
+	padding: 0px;
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=73)";
+	filter: alpha(opacity=73);
+	-moz-opacity: 0.73;
+	-khtml-opacity: 0.73;
+	opacity: 0.73;
+
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+
+	background: #48C6D4;
+
+	color: rgb(25,25,25);
+	font-size: 20px;
+	font-weight: 500;
+	font-family: inherit;
+	font-style: inherit;
+	text-decoration: inherit;
+	text-align: center;
+
+	line-height: 1.95em;
+	letter-spacing: 0em;
+}
+
+.div_double {
+	position: relative;
+	color:white;
+	display:none;
+	height: 50px;
+	border: 8px rgb(250, 178, 0) double;
+
+	padding: 0px;
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=73)";
+	filter: alpha(opacity=73);
+	-moz-opacity: 0.73;
+	-khtml-opacity: 0.73;
+	opacity: 0.73;
+
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+
+	background: #F66C7B;
+
+	color: rgb(25,25,25);
+	font-size: 20px;
+	font-weight: 500;
+	font-family: inherit;
+	font-style: inherit;
+	text-decoration: inherit;
+	text-align: center;
+
+	line-height: 1.95em;
+	letter-spacing: 0em;
+}
+
+.Row
+{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+.Column
+{
+    float:left;
+    width:33%;
+}
